@@ -227,8 +227,11 @@ img {
 
 .project-image {
     height: calc(100% - 6.8rem);
+    max-height: 1080px;
     width: 100%;
+    max-width: 1920px;
     object-fit: cover;
+    object-fit: contain;
 }
 
 .project-title {
