@@ -167,6 +167,8 @@ img {
 
 .welcome-section__text {
     text-align: center;
+    max-width: 1000px;
+    margin-top: 50px;
 }
 
 /* Projects section */
