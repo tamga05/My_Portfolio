@@ -148,6 +148,7 @@ img {
 /* Welcome section */
 
 .welcome-section {
+    padding: 30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,12 +165,25 @@ img {
     font-style: italic;
     /* color: var(--main-red); */
     color: #FFFFFF;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 576px) {
+    .welcome-section>p {
+        font-size: 2rem;
+    }
 }
 
 .welcome-section__text {
-    text-align: center;
+    /* text-align: center; */
+    text-align: justify;
     max-width: 1000px;
-    margin-top: 50px;
+}
+
+@media screen and (max-width: 380px) {
+    .welcome-section__text {
+        text-align: center;
+    }
 }
 
 /* Projects section */
