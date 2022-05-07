@@ -355,3 +355,7 @@ footer i {
         text-align: center;
     }
 }
+
+footer p:hover, footer p:hover a {
+    color: #be3144;
+}
